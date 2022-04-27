@@ -27,6 +27,7 @@ from robot.version import get_version
 
 
 class String(object):
+    # """A test library for string manipulation and verification.
     """A test library for string manipulation and verification.
 
     ``String`` is Robot Framework's standard library for manipulating
