@@ -64,6 +64,19 @@ class String(object):
         # comments for more details.
         return lower(string)
 
+    def convert_to_lowercase_12(self, string):
+        """Converts string to lowercase.
+
+        Examples:
+        | ${str1} = | Convert To Lowercase | ABC |
+        | ${str2} = | Convert To Lowercase | 1A2c3D |
+        | Should Be Equal | ${str1} | abc |
+        | Should Be Equal | ${str2} | 1a2c3d |
+        """
+        # Custom `lower` needed due to IronPython bug. See its code and
+        # comments for more details.
+        return lower(string)
+
     def convert_to_uppercase(self, string):
         """Converts string to uppercase.
 
