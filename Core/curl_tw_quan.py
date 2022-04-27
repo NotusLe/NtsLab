@@ -4,7 +4,7 @@ from requests.structures import CaseInsensitiveDict
 class curl_tw_quan(object):
     """Curl Twitter
     """
-
+    ## api twv2
     def tw_api(self, user_id, acess_token):
         url = "https://api.twitter.com/2/users/" + user_id + "/following?max_results=1000"
 
